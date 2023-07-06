@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/index.css">
+    <script type="module" src="js/script.js"></script>
+    <title>Shop online</title>
+</head>
+<body>
+    <header class="header">
+        <div class="container header__container">
+            <nav class="header__navigation">
+                <h1 class="header__title" tabindex="1"> Shop<span class="header__name header__name--blue"> Online </span> </h1>
+                <button class="header__button">Меню</button>
+                <div class="header__menu">
+                    <button class="header__icon header__icon--one">
+                        <div class="header__block header__block--one"></div>
+                        <p class="header__signature">Профиль</p>
+                    </button>
+                    <button class="header__icon header__icon--two">
+                        <div class="header__block header__block--two">
+                            <p class="header__count-basket">2</p>
+                        </div>
+                        <p class="header__signature">Корзина</p>
+                    </button>
+                    <button class="header__icon header__icon--three">
+                        <div class="header__block header__block--three"></div>
+                        <p class="header__signature">Избранное</p>
+                    </button>
+                </div>
+                <div class="input__block">
+                        <label for="search">
+                            <input class="header__input" id="search" name="search" type="text" placeholder="Я ищу...">
+                            <button class="header__search"></button>
+                        </label>
+                    </div>
+            </nav>
+        </div>
+    </header>
+    <main class="main">
+        <div class="container main__container">
+            <section class="gallery">
+                <ul class="gallery__list">
+                    <li class="gallery__item gallery__item--one" tabindex="0">
+                        <p class="gallery__text gallery__text--up">-50% на все ноутбуки</p>
+                        <p class="gallery__text gallery__text--descrip"> До конца акции:</p>
+                        <p class="gallery__text gallery__text--timer"> <span class="gallery__big-figure gallery__big-figure--days">  </span> <span class="gallery__big-figure gallery__big-figure--hours"> </span> <span class="gallery__big-figure gallery__big-figure--minutes"> </span> <span class="gallery__big-figure gallery__big-figure--seconds">  </span> </p>
+                    </li>
+                    <li class="gallery__item gallery__item--two" tabindex="0">
+                        <p class="gallery__text gallery__text--book">Книга – <span class="gallery__text--big">лучший подарок</span></p>
+                    </li>
+                    <li class="gallery__item gallery__item--three" tabindex="0">
+                        <p class="gallery__text gallery__text--clock">Время скидок!</p>
+                        <div class="gallery__block gallery__block--clock">-25%</div>
+                    </li>
+                    <li class="gallery__item gallery__item--four" tabindex="0">
+                        <div class="gallery__block gallery__block--40">-40%</div>
+                    </li>
+                    <li class="gallery__item gallery__item--five" tabindex="0">
+                        <div class="gallery__block gallery__block--two-pair">Вторая пара кроссовок <span class="gallery__span-big">в&nbsp;подарок!</span></div>
+                    </li>
+                    <li class="gallery__item gallery__item--six" tabindex="0">
+                        <p class="gallery__text gallery__text--left-bottom">Идеи новогодних подарков</p>    
+                    </li>
+
+                    <li class="gallery__item gallery__item--seven" tabindex="0">
+                        <p class="gallery__text gallery__text--left-bottom2">Выгодно в декабре!</p>    
+                        <div class="gallery__block gallery__block--15">-15%</div>
+                    </li>
+                    
+                    <li class="gallery__item gallery__item--eight" tabindex="0">
+                        <div class="gallery__block gallery__block--55">-55%</div>
+                    </li>
+                    <li class="gallery__item gallery__item--nine" tabindex="0">
+                        <div class="gallery__block gallery__block--25">-25%</div>
+                        <p class="gallery__text gallery__text--chemistry">На бытовую химию</p>
+                    </li>
+                    <li class="gallery__item gallery__item--ten" tabindex="0"></li>
+                    <li class="gallery__item gallery__item--eleven"  data-timer-deadline = '2023/06/30 14:56'>
+                        <div class="gallery__block gallery__block--new-year">Новогодние украшения</div>
+                    </li>
+                </ul>
+            </section>
+            <section class="benefit">
+                <h2 class="benefit__title">Это выгодно!</h2>
+                <div class="benefit__rows">
+                    <div class="benefit__block" tabindex="0">
+                        <div class="benefit__image">
+                            <div class="benefit__advantage"></div>
+                        </div>
+                        <div class="benefit__price">
+                            <div class="benefit__discount" aria-label="Старая цена">
+                                1299 ₽
+                            </div>
+                            <div class="benefit__full">2598 ₽</div>
+                        </div>
+                        <div class="benefit__item">Пара футболок</div>
+                    </div>
+                    <div class="benefit__block" tabindex="0">
+                        <div class="benefit__image">
+                            <div class="benefit__advantage"></div>
+                        </div>
+                        <div class="benefit__price">
+                            <div class="benefit__discount">
+                                1299 ₽
+                            </div>
+                            <div class="benefit__full">2598 ₽</div>
+                        </div>
+                        <div class="benefit__item">Пара футболок</div>
+                    </div>
+                    <div class="benefit__block" tabindex="0">
+                        <div class="benefit__image">
+                            <div class="benefit__advantage"></div>
+                        </div>
+                        <div class="benefit__price">
+                            <div class="benefit__discount">
+                                1299 ₽
+                            </div>
+                            <div class="benefit__full">2598 ₽</div>
+                        </div>
+                        <div class="benefit__item">Пара футболок</div>
+                    </div>
+                    <div class="benefit__block" tabindex="0">
+                        <div class="benefit__image">
+                            <div class="benefit__advantage"></div>
+                        </div>
+                        <div class="benefit__price">
+                            <div class="benefit__discount">
+                                1299 ₽
+                            </div>
+                            <div class="benefit__full">2598 ₽</div>
+                        </div>
+                        <div class="benefit__item">Пара футболок</div>
+                    </div>
+                    <div class="benefit__block" tabindex="0">
+                        <div class="benefit__image">
+                            <div class="benefit__advantage"></div>
+                        </div>
+                        <div class="benefit__price">
+                            <div class="benefit__discount">
+                                1299 ₽
+                            </div>
+                            <div class="benefit__full">2598 ₽</div>
+                        </div>
+                        <div class="benefit__item">Пара футболок</div>
+                    </div>
+                    <div class="benefit__block" tabindex="0">
+                        <div class="benefit__image">
+                            <div class="benefit__advantage"></div>
+                        </div>
+                        <div class="benefit__price">
+                            <div class="benefit__discount">
+                                1299 ₽
+                            </div>
+                            <div class="benefit__full">2598 ₽</div>
+                        </div>
+                        <div class="benefit__item">Пара футболок</div>
+                    </div>
+                    <div class="benefit__block" tabindex="0">
+                        <div class="benefit__image">
+                            <div class="benefit__advantage"></div>
+                        </div>
+                        <div class="benefit__price">
+                            <div class="benefit__discount">
+                                1299 ₽
+                            </div>
+                            <div class="benefit__full">2598 ₽</div>
+                        </div>
+                        <div class="benefit__item">Пара футболок</div>
+                    </div>
+                    <div class="benefit__block" tabindex="0">
+                        <div class="benefit__image">
+                            <div class="benefit__advantage"></div>
+                        </div>
+                        <div class="benefit__price">
+                            <div class="benefit__discount">
+                                1299 ₽
+                            </div>
+                            <div class="benefit__full">2598 ₽</div>
+                        </div>
+                        <div class="benefit__item">Пара футболок</div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+    <footer class="footer">
+        <div class="container footer__container">
+            <div class="footer__block">
+                <h2 class="footer__title"> Shop<span class="footer__name footer__name--blue"> Online </span> </h2>
+                <div class="footer__catalog">Каталог</div>
+                <div class="footer__empty"></div>
+                <div class="footer__buyer">Покупателям</div>
+                <div class="footer__contacts">Контакты</div>
+            </div>
+            <div class="footer__info">
+                <div class="footer__empty"></div>
+                <ul class="footer__list">
+                    <li class="footer__item">
+                        <a href="">Смартфоны </a></li>
+                    <li class="footer__item"><a href="">Ноутбуки</a></li>
+                    <li class="footer__item"><a href="">Ювелирные</a> изделия</li>
+                    <li class="footer__item"><a href="">Одежда</a></li>
+                    <li class="footer__item"><a href="">Бытовая техника</a></li>
+                </ul>
+                <ul class="footer__list">
+                    <li class="footer__item"><a href="">Бытовая химия</a></li>
+                    <li class="footer__item"><a href="">Книги и журналы</a></li>
+                    <li class="footer__item"><a href="">Домашний текстиль</a></li>
+                    <li class="footer__item"><a href="">Электроника</a></li>
+                    <li class="footer__item"><a href="">Косметика</a></li>
+                </ul>
+                <ul class="footer__list">
+                    <li class="footer__item"><a href="">Оплата заказа</a></li>
+                    <li class="footer__item"><a href="">Условия доставки</a></li>
+                    <li class="footer__item"><a href="">Условия возврата заказа</a></li>
+                    <li class="footer__item"><a href="blog.html">Блог</a></li>
+                </ul>
+                <ul class="footer__list">
+                    <li class="footer__item"> 
+                        <a href="#">Тел: +7 937 839 23-61</a> </li>
+                    <li class="footer__item">
+                        <a href="#">Email: OnlineShop@gmail.com</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

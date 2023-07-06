@@ -1,0 +1,102 @@
+.article__container {
+    max-width: 1920px;
+    /* padding: 172px 243px; */
+    margin: 0 auto;
+}
+
+.article__list {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: 195px;
+    gap: 50px 143px;
+    margin-bottom: 100px;
+}
+
+.article__item {
+    display: flex;
+}
+
+.article__image--main{
+    min-width: 195px;
+    height: 195px;
+    margin-right: 30px;
+    background-image: url('../image/shoes.png');
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+
+.article__info {
+    display: flex;
+    flex-direction: column;
+}
+
+.article__title {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 130%;
+    color: #2D2D2D;
+    padding-top: 13px;
+    margin-bottom: 13px;
+    cursor: pointer;
+    overflow-y: overlay;
+    max-height: 100px;
+}
+
+.article__date {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 130%;
+    color: #8F8F8F;
+    margin-bottom: 39px;
+}
+
+.article__metrics {
+    display: flex;
+}
+
+.article__views {
+    display: flex;
+    align-items: center;
+    margin-right: 25px;
+}
+
+.article__image--eye {
+    height: 24px;
+    width: 24px;
+    background-image: url('../image/akar-icons_eye.svg');
+    margin-right: 4px;
+}
+
+.article__count--eye {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 130%;
+    color: #8F8F8F;
+}
+
+.article__comments {
+    display: flex;
+    align-items: center;
+}
+
+.article__image--message {
+    height: 24px;
+    width: 24px;
+    background-image: url('../image/chat.svg');
+    margin-right: 9px;
+}
+
+.article__count--message {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 130%;
+    color: #8F8F8F;
+}

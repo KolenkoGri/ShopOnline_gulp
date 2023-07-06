@@ -1,0 +1,156 @@
+.page {
+    margin-bottom: 100px;
+}
+
+.page__container {
+    max-width: 1920px;
+    /* padding: 172px 243px; */
+    margin: 0 auto;
+}
+
+.page__path {
+    display: flex;
+    justify-content: left;
+    column-gap: 10px;
+    align-items: center;
+    margin-bottom: 80px;
+}
+
+.page__name {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 130%;
+    color: #525252;
+}
+
+.page__arrow {
+    min-width: 18px;
+    height: 18px;
+    background-image: url('../image/keyboard_arrow_right.svg');
+    color: #525252;
+}
+
+.page__title {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 130%;
+    color: #2D2D2D;
+    margin-bottom: 40px;
+}
+
+.page__description {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 150%;
+    color: #2D2D2D;
+    margin-bottom: 100px;
+}
+
+.page__author {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 150%;
+    color: #000000;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: right;
+}
+
+.page__date {
+    margin-bottom: 15px;
+}
+
+.page__bottom {
+    display: flex;
+    justify-content: space-between;
+}
+
+.page__bottom-right {
+    display: flex;
+    flex-direction: column;
+    justify-content: right;
+    margin-right: 20px;
+}
+
+.page__bottom-left {
+    display: flex;
+    justify-content: left;
+    column-gap: 10px;
+    align-items: center;
+}
+
+.page__arrow-back {
+    background-image: url('../image/keyboard_backspace.svg');
+    width: 24px;
+    height: 24px;
+}
+
+.page__back {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 130%;
+    color: #2D2D2D;
+}
+
+.page__ads {
+    display: flex;
+    flex-direction: column;
+    row-gap: 50px;
+}
+
+.page__ads-block {
+    min-width: 532px;
+    height: 328px;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.page__ads-block--one {
+    background-image: url('../image/ads1.png');
+}
+
+.page__ads--title {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 130%;
+    color: #FFFFFF;
+    position: absolute;
+    bottom: 68px;
+    left: 30px;
+    max-width: 380px;
+}
+
+.page__ads--description {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 130%;
+    color: #FFFFFF;
+    position: absolute;
+    bottom: 43px;
+    left: 30px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.page__info {
+    display: flex;
+    column-gap: 143px;
+}
+
+.page__ads-block--two {
+    background-image: url('../image/ads2.png');
+}

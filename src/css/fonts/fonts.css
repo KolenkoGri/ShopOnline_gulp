@@ -1,0 +1,5 @@
+@font-face {
+    font-family: Lato;
+    src: local("Inter"), url("https://fonts.googleapis.com/css2?family=Inter&display=swap") format("ttf");
+    font-display: swap;
+}

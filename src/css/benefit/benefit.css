@@ -1,0 +1,76 @@
+.benefit {
+    margin: 0 auto;
+    margin-bottom: 140px;
+}
+
+.benefit__title {
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 65px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #2D2D2D;
+    margin-bottom: 50px;
+}
+
+.benefit__rows{
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 394px;
+    gap: 50px 30px;
+}
+.benefit__block {
+    max-width: 420px;
+    height: 394px;
+}
+.benefit__image {
+    width: 100%;
+    height: 295px;
+    border-radius: 14px;
+    background-image: url('./image/photo.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    margin-bottom: 20px;
+}
+.benefit__advantage {
+    position: absolute;
+    background-image: url('./image/promo.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 88px;
+    height: 88px;
+    bottom: 20px;
+    left: 20px;
+}
+.benefit__price {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    max-width: 181px;
+    height: 34px;
+    gap: 28px;
+    margin-bottom: 15px;
+}
+.benefit__discount {
+    font-family: Lato;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 34px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #2D2D2D;
+}
+.benefit__full {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #2D2D2D;
+    text-decoration: line-through;
+}
+.benefit__item {
+    color: #2D2D2D;
+}

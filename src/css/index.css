@@ -1,0 +1,10 @@
+@import url(normalize.css);
+@import url(fonts/fonts.css);
+@import url(global.css);
+@import url(header/header.css);
+@import url(gallery/gallery.css);
+@import url(benefit/benefit.css);
+@import url(footer/footer.css);
+@import url(article/article.css);
+@import url(page/page.css);
+@import url(pagination/pagination.css);

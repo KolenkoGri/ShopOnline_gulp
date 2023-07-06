@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/index.css">
+    <script type="module" src="js/script.js"></script>
+    <title>Fetch</title>
+</head>
+<body>
+    <header class="header">
+        <div class="container header__container">
+            <nav class="header__navigation">
+                <h1 class="header__title" tabindex="1"> Shop<span class="header__name header__name--blue"> Online </span> </h1>
+                <button class="header__button">Меню</button>
+                <div class="header__menu">
+                    <button class="header__icon header__icon--one">
+                        <div class="header__block header__block--one"></div>
+                        <p class="header__signature">Профиль</p>
+                    </button>
+                    <button class="header__icon header__icon--two">
+                        <div class="header__block header__block--two">
+                            <p class="header__count-basket">2</p>
+                        </div>
+                        <p class="header__signature">Корзина</p>
+                    </button>
+                    <button class="header__icon header__icon--three">
+                        <div class="header__block header__block--three"></div>
+                        <p class="header__signature">Избранное</p>
+                    </button>
+                </div>
+                <div class="input__block">
+                        <label for="search">
+                            <input class="header__input" id="search" name="search" type="text" placeholder="Я ищу...">
+                            <button class="header__search"></button>
+                        </label>
+                    </div>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <section class="article">
+            <div class="container article__container">
+                <div class="page__path">
+                    <a class="page__name" href="index.html">Главная</a>
+                    <div class="page__arrow"></div>
+                    <div class="page__name">Блог</div>
+                </div>
+                <ul class="article__list">
+                    <!-- <li class="article__item">
+                        <div class="article__image--main"></div>
+                        <div class="article__info">
+                            <a class="article__title" href="page.html" >Как ухаживать за обувью из кожи</a>
+                            <div class="article__date">22 октября 2021, 12:45</div>
+                            <div class="article__metrics">
+                                <div class="article__views">
+                                    <div class="article__image--eye"></div>
+                                    <div class="article__count--eye">1.9K</div>
+                                </div>
+                                <div class="article__comments">
+                                    <div class="article__image--message"></div>
+                                    <div class="article__count--message">0</div>
+                                </div>
+                            </div>
+                        </div>
+                    </li> -->
+                </ul>
+
+                <div class="pagination">
+                    <a class="pagination__arrow pagination__arrow-left" href=""></a>
+                    <div class="pagination__pages">
+                        <!-- <a class="pagination__number">1</a>
+                        <a class="pagination__number">2</a>
+                        <a class="pagination__number">3</a> -->
+                    </div>
+                    <a class="pagination__arrow pagination__arrow-right" href=""></a>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="container footer__container">
+            <div class="footer__block">
+                <h2 class="footer__title"> Shop<span class="footer__name footer__name--blue"> Online </span> </h2>
+                <div class="footer__catalog">Каталог</div>
+                <div class="footer__empty"></div>
+                <div class="footer__buyer">Покупателям</div>
+                <div class="footer__contacts">Контакты</div>
+            </div>
+            <div class="footer__info">
+                <div class="footer__empty"></div>
+                <ul class="footer__list">
+                    <li class="footer__item">
+                        <a href="">Смартфоны </a></li>
+                    <li class="footer__item"><a href="">Ноутбуки</a></li>
+                    <li class="footer__item"><a href="">Ювелирные</a> изделия</li>
+                    <li class="footer__item"><a href="">Одежда</a></li>
+                    <li class="footer__item"><a href="">Бытовая техника</a></li>
+                </ul>
+                <ul class="footer__list">
+                    <li class="footer__item"><a href="">Бытовая химия</a></li>
+                    <li class="footer__item"><a href="">Книги и журналы</a></li>
+                    <li class="footer__item"><a href="">Домашний текстиль</a></li>
+                    <li class="footer__item"><a href="">Электроника</a></li>
+                    <li class="footer__item"><a href="">Косметика</a></li>
+                </ul>
+                <ul class="footer__list">
+                    <li class="footer__item"><a href="">Оплата заказа</a></li>
+                    <li class="footer__item"><a href="">Условия доставки</a></li>
+                    <li class="footer__item"><a href="">Условия возврата заказа</a></li>
+                    <li class="footer__item"><a href="blog.html">Блог</a></li>
+                </ul>
+                <ul class="footer__list">
+                    <li class="footer__item"> 
+                        <a href="#">Тел: +7 937 839 23-61</a> </li>
+                    <li class="footer__item">
+                        <a href="#">Email: OnlineShop@gmail.com</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
