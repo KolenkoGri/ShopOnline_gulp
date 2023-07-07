@@ -122,6 +122,7 @@ const timer = (deadline) => {
         const timerPlugin = document.querySelectorAll('[data-timer-deadline]');
 
         timerPlugin.forEach((t) => {
+            t.replaceChildren();
             t.insertAdjacentHTML('afterbegin', `
             <p class="gallery__text gallery__text--descrip"> До конца акции:</p>
             <p class="gallery__text gallery__text--timer"> 
@@ -134,7 +135,8 @@ const timer = (deadline) => {
         })
     }
 
-    const pluginInterval = setTimeout(startTimerPlugin, 1000);
+    setInterval(startTimerPlugin, 1000);
+    
 };
 
 timer(timeOutDiscount);
