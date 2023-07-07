@@ -44,8 +44,8 @@ export const js = () => gulp
 
 export const copy = () => gulp
 .src([
-    './src/fonts/**/*',
-    './src/css/**/*.{png, jpg, jpeg, svg}'
+    './src/css/fonts/**/*',
+    './src/css/**/*'
 ], {
     base: 'src'
 })
@@ -58,7 +58,7 @@ export const server = () => {
     browserSync.init({
         ui: false,
         notify: false,
-        // tunnel: true,
+        tunnel: true,
         server: {
             baseDir: 'dist'
         } 
@@ -67,7 +67,7 @@ export const server = () => {
     gulp.watch("./src/**/*.html", html);
     gulp.watch("./src/css/**/*.css", css);
     gulp.watch("./src/js/**/*.js", js);
-    gulp.watch(["./src/css/**/*.{png, jpg, jpeg, svg}", './src/css/fonts/**/*' ], copy);
+    gulp.watch(["./src/css/**/*}", './src/css/fonts/**/*' ], copy);
 }
 
 export const clear = () => deleteAsync('dist/**/*', {forse: true});

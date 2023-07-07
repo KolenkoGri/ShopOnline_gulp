@@ -23,7 +23,6 @@ const loadPagination = () => {
 
 const renderArticles = async () => {
     const data = await loadArticles();
-
     data.data.map((item) => {
         articleList.insertAdjacentHTML('beforeend', `
         <li class="article__item">
